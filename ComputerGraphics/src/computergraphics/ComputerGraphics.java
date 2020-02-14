@@ -7,7 +7,7 @@ package computergraphics;
 
 /**
  *
- * @author Star Platinum
+ * @author mmarulandc yanarvaezp
  */
 public class ComputerGraphics {
 
