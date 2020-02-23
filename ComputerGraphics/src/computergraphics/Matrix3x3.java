@@ -9,6 +9,7 @@ public class Matrix3x3 {
     private double[][] matrix;
 
     public Matrix3x3() {
+        matrix = new double[3][3];
         matrix[0][0] = 0;
         matrix[0][1] = 0;
         matrix[1][0] = 0;

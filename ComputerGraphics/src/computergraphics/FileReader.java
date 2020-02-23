@@ -30,7 +30,7 @@ public class FileReader {
     public FileReader() {
 
         try {
-            fis = new FileInputStream("C:\\Users\\Star Platinum\\Documents\\computer graphics\\ComputerGraphics\\src\\computergraphics\\objeto.txt");
+            fis = new FileInputStream(fileName);
             br = new BufferedReader(new InputStreamReader(fis, "UTF-8"));
         } catch (FileNotFoundException e) {
             e.printStackTrace();

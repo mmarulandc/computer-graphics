@@ -49,4 +49,15 @@ public class Point3 {
         this.w = w;
     }
 
+    public Point3 timePoint(Matrix3x3 m1, Point3 p) {
+        double[][] m = m1.getMatrix();
+        double[] point = {p.getX(), p.getY(), p.getW()};
+        double[] res = {0, 0, 0};
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                res[i] += m[i][j] * point[j];
+            }
+        }
+        return new Point3(res[0], res[1]);
+    }
 }
