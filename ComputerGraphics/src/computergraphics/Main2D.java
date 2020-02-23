@@ -157,22 +157,22 @@ public class Main2D extends JPanel implements KeyListener{
             dX += 5;
         }
 
-        if(ke.getKeyCode() == KeyEvent.VK_Q) {
-            System.out.println("key pressed Q");
+        if(ke.getKeyCode() == KeyEvent.VK_I) {
+            System.out.println("key pressed I");
             r += 5;
             if(r == 360){ r = 0;}
             System.out.println("r = " + r);
         }
 
-        if(ke.getKeyCode() == KeyEvent.VK_E) {
-            System.out.println("key pressed E");
+        if(ke.getKeyCode() == KeyEvent.VK_K) {
+            System.out.println("key pressed K");
             if(r == 0){ r = 360;}
             r -= 5;
             System.out.println("r = " + r);
         }
 
-        if(ke.getKeyCode() == KeyEvent.VK_MINUS || ke.getKeyCode() == KeyEvent.VK_SUBTRACT) {
-            System.out.println("key pressed -");
+        if(ke.getKeyCode() == KeyEvent.VK_L) {
+            System.out.println("key pressed L");
             if(sX >= 0.2){
                 sX -= 0.2;
                 sY -= 0.2;
@@ -181,8 +181,8 @@ public class Main2D extends JPanel implements KeyListener{
             }
         }
 
-        if(ke.getKeyCode() == KeyEvent.VK_PLUS || ke.getKeyCode() == KeyEvent.VK_ADD) {
-            System.out.println("key pressed +");
+        if(ke.getKeyCode() == KeyEvent.VK_O) {
+            System.out.println("key pressed O");
             sX += 0.2;
             sY += 0.2;
 
