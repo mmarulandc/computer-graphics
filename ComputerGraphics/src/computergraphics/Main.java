@@ -12,11 +12,6 @@ package computergraphics;
 import javax.swing.*;
 import java.awt.*;
 
-
-/**
- *
- * @author lope
- */
 public class Main extends JPanel {
 
     static FileReader fr;
