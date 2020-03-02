@@ -8,9 +8,7 @@ import java.awt.event.KeyListener;
 import java.util.*;
 import java.util.List;
 
-/**
- * Created by lope on 2/27/2016.
- */
+
 public class Main2D extends JPanel implements KeyListener{
 
     double sX = 1;
